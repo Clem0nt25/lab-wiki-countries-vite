@@ -9,6 +9,7 @@ const CountriesList = ({countries}) => {
             {countries.map((country, index) => {
 
                 const lowerCase = country.alpha2Code.toLowerCase()
+                console.log("country index: ", index)
 
                 return (
                     <div key={country.name.common}>
